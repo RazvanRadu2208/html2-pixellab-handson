@@ -1,0 +1,19 @@
+{
+  "name": "ex04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./scss/app.scss ./css/style.css",
+    "minify": "sass ./scss/app.scss ./css/style.css --style compressed",
+    "watch": "sass --watch ./scss/app.scss:./css/style.css",
+    "compile-tailwind": "sass ./scss/app.scss ./css/style.css && postcss ./css/style.css -o ./css/style.prefixed.css --use autoprefixer && tailwindcss build ./css/style.prefixed.css -o ./css/style.tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.24",
+    "sass": "^1.63.4"
+  }
+}

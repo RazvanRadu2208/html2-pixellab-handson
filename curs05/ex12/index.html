@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Bootstrap 12</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+</head>
+
+<body>
+  <main class="container my-5">
+    <section class="mb-4">
+      <header class="mb-4">
+        <h1>Aliniate folosind flexbox</h1>
+      </header>
+      <div class="border border-dark py-2 d-flex flex-column gap-2 container mb-4">
+        <section class="row d-flex justify-content-center">
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+        </section>
+
+        <section class="row d-flex justify-content-between">
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+        </section>
+
+        <section class="row d-flex justify-content-center">
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+        </section>
+      </div>
+
+      <div class="border border-dark py-2 d-flex flex-column gap-2 container">
+        <section class="row d-flex justify-content-between">
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+        </section>
+
+        <section class="row d-flex justify-content-between">
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+        </section>
+
+        <section class="row d-flex justify-content-start">
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+          <div class="col-4 py-4 border bg-primary-subtle border border-dark"></div>
+        </section>
+      </div>
+    </section>
+
+    <section>
+      <header class="mb-4">
+        <h1>Aliniate folosind offset</h1>
+      </header>
+
+      <div class="container border border-dark py-2 mb-4">
+        <section class="row mb-2">
+          <div class="col-4 py-4 bg-dark-subtle offset-4 border border-dark"></div>
+        </section>
+
+        <section class="row mb-2">
+          <div class="col-4 py-4 bg-dark-subtle border border-dark"></div>
+
+          <div class="col-4 py-4 bg-dark-subtle offset-4 border border-dark"></div>
+        </section>
+
+        <section class="row">
+          <div class="col-4 py-4 bg-dark-subtle offset-4 border border-dark"></div>
+        </section>
+      </div>
+
+      <div class="container border border-dark py-2">
+        <section class="row mb-2">
+          <div class="col-4 py-4 bg-dark-subtle border border-dark"></div>
+
+          <div class="col-4 py-4 bg-dark-subtle offset-4 border border-dark"></div>
+        </section>
+
+        <section class="row mb-2">
+          <div class="col-4 py-4 bg-dark-subtle border border-dark"></div>
+
+          <div class="col-4 py-4 bg-dark-subtle offset-4 border border-dark"></div>
+        </section>
+
+        <section class="row">
+          <div class="col-4 py-4 bg-dark-subtle border border-dark"></div>
+
+          <div class="col-4 py-4 bg-dark-subtle border border-dark"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

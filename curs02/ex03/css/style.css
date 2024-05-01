@@ -1,0 +1,25 @@
+.btn-primary {
+  color: purple;
+}
+
+.btn-secondary {
+  color: blue;
+}
+
+.btn-inverted {
+  background: transparent;
+}
+
+.btn-inverted-light {
+  background: lightgray;
+}
+
+.btn-tertiary {
+  color: green;
+}
+
+.btn-text-gray {
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

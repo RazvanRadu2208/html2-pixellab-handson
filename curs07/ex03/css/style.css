@@ -1,0 +1,150 @@
+.animation01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.animation01 span {
+  text-transform: uppercase;
+  font-size: 100px;
+  animation: blink 2s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: yellow;
+  }
+
+  100% {
+    opacity: 0;
+    color: purple;
+  }
+}
+
+.animation02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.loading-text {
+  display: flex;
+  gap: 5px;
+}
+
+.animation02 {
+  background: gray;
+  text-transform: uppercase;
+  animation: animation02 1.5s infinite ease-in-out;
+}
+
+@keyframes animation02 {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: black;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.main {
+  display: block;
+}
+
+.container-2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  margin: 0 5px;
+  animation: square-animations 1.5s infinite ease-in-out;
+}
+
+.square-2 {
+  animation-delay: 0.125s;
+}
+
+.square-3 {
+  animation-delay: 0.25s;
+}
+
+@keyframes square-animations {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.squares {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  margin: 0 5px;
+  animation: square-animations-2 1.5s infinite ease-in-out;
+}
+
+.square-5 {
+  animation-delay: 0.125s;
+}
+
+.square-6 {
+  animation-delay: 0.25s;
+}
+
+@keyframes square-animations-2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ccc;
+  border-top-color: red;
+  border-radius: 50%;
+  animation: spinnerAnimation 1s infinite linear;
+}
+
+@keyframes spinnerAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
